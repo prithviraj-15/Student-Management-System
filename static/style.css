@@ -1,0 +1,148 @@
+/* ================= GLOBAL ================= */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    margin: 0;
+
+    /* CENTER EVERYTHING */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ================= HEADING ================= */
+h1 {
+    color: #222;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ================= LINKS ================= */
+a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* ================= TABLE ================= */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+}
+
+th {
+    background: linear-gradient(45deg, #333, #555);
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ROW HOVER */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ================= ACTION BUTTONS ================= */
+a[href*="edit"] {
+    background: #4caf50;
+    color: white;
+}
+
+a[href*="delete"] {
+    background: #f44336;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.85;
+}
+
+/* ================= ADD BUTTON ================= */
+.add-btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    transform: scale(1.08);
+}
+
+/* ================= FORM ================= */
+form {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/* ================= LABEL ================= */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* ================= INPUT ================= */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* INPUT FOCUS */
+input:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 8px rgba(33,150,243,0.5);
+}
+
+/* ================= BUTTON ================= */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(45deg, #4caf50, #2ecc71);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #43a047, #27ae60);
+}
+body {
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+h1 {
+    margin-top: 5px;
+}
