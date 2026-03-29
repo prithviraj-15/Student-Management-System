@@ -1,4 +1,4 @@
-🎓 Student Management System
+##🎓 Student Management System
 
 A simple and user-friendly Student Management System built using Flask (Python), HTML, CSS, and SQLite.
 This project allows users to manage student records efficiently with basic CRUD operations.
